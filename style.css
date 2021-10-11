@@ -109,3 +109,9 @@ a:focus {
 footer {
     background: #212529;
 }
+
+@media (max-width: 567px) {
+    .foot {
+        display: none;
+    }
+}
