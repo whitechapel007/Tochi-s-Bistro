@@ -4,8 +4,10 @@
     padding: 0;
 }
 
-body {
+body,
+html {
     background-color: white;
+    height: 100%;
 }
 
 img {
@@ -88,4 +90,22 @@ img {
     height: 90vh;
     background-size: cover;
     background-position: center;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #212529;
+}
+
+footer {
+    background: #212529;
 }
