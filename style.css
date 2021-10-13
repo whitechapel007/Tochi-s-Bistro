@@ -8,6 +8,7 @@ body,
 html {
     background-color: white;
     height: 100%;
+    overflow-x: hidden;
 }
 
 img {
@@ -113,5 +114,11 @@ footer {
 @media (max-width: 567px) {
     .foot {
         display: none;
+    }
+    .x * {
+        padding: .5rem .3rem;
+    }
+    .x_1 * {
+        padding: .6rem .1rem;
     }
 }
